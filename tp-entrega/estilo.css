@@ -11,8 +11,8 @@ body{
 
 .content{
     width: 100%;
-    height: 19%;
-    background: #fdfdfd;
+    height: 30%;
+    background: #F2CCB6;
     display: flex;
     justify-content: center ;
     align-items: center;
@@ -27,27 +27,9 @@ body{
     background-color: #F2CCB6;
 }
 /*======logo=======*/
-#contenedor {
-    background-color: lightgray;
-    padding: 10px;
-    /*margin: 20px;*/
-    border: 1px solid black;
-}
-.logo3{
-    width: 130px;
-    height: 130px;
-    background-color: #F2CCB6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-}
-.logo4{
-    display: flex;
-    width: 100%;
-    height: 300%;
-    box-shadow: 0 16px 25px rgba(7, 7, 7, 0.1);
-}
+
+
 .head-nav .nav-logo{
     display: flex;
     width: 100%;
@@ -120,11 +102,10 @@ body{
     margin-top: 13.50rem;
     margin-bottom: -5rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     width: auto;
     justify-content: center;
-    height: 60px;
-    
+    height: 40px;
     background-color: #F2CCB6;
     
     

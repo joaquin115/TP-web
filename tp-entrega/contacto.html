@@ -1,28 +1,24 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estilos2.css">
     <link rel="icon" type="image/x-icon" href="assets/contacto2.png" />
     <title>contacto</title>
-    
 </head>
-
 <body>
-    <div class="container">
-        <div class="header">
-            <div class="logo">
-                <div class="menu">
-                    <a title="logo" href="index.html">
-                    <img src="logo.svg" alt="logo" /></a>
-                </div>
-            </div>
-        </div>
+    
+
+    <div>
+        <span class="logo"> 
+                <a href="index.html"><img src="assets/logo.svg" alt="logo"></a> 
+        </span>
+        
+        
         <div class="content">
-            <div class="contacto">
+            <div class="contacto" style='text-align:center' >
                 <h1> CONTACTO</h1>
                 <p>Si desea contactarse con nosotros, puede hacerlo a través de los siguientes medios:</p>
                 <p>Telefono: 123456789</p>
@@ -30,23 +26,24 @@
                 <p>Direccion: Av. Siempre Viva 123</p>
             </div>
         </div>    
-        <div>
-            <p>Tambien puedes dejar tus datos en este formulario y nos comunicaremos contigo.</p>
+        <div class="formulario">
+            <br>
+            <p style='text-align:center'><h3> Tambien puedes dejar tus datos en este formulario y nos comunicaremos contigo.</h3> 
             
             <form action="enviar" method="get">
-                <div class="form-group">
+                <div class="">
                     <label for="nombre">Nombre</label>
                     <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
                 </div>
-                <div class="form-group">
+                <div class="">
                     <label for="email">Email</label>
                     <input type="email" name="email" id="email" placeholder="Ingrese su email">
                 </div>
-                <div class="form-group">
+                <div class="">
                     <label for="mensaje">Mensaje</label>
                     <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Ingrese su mensaje"></textarea>
                 </div>
-                <div class="form-group">
+                <div class="">
                     <input type="submit" value="Enviar">
                 </div>
             </form>
